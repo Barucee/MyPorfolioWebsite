@@ -4,16 +4,16 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
+//import BlogsImg from "./BlogsImg";
+//import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
-const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
+//const blogSection = contactPageData.blogSection;
+//const addressSection = contactPageData.addressSection;
+//const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
   render() {
@@ -55,6 +55,7 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
+          {/* 
           <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
@@ -80,7 +81,7 @@ class Contact extends Component {
                 {/* <img
 											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
-										/> */}
+										/> 
                 <BlogsImg theme={theme} />
               </div>
             </div>
@@ -91,7 +92,7 @@ class Contact extends Component {
                 {/* <img
 											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
 											alt=""
-										/> */}
+										/> 
                 <AddressImg theme={theme} />
               </div>
               <div className="address-heading-text-div">
@@ -129,7 +130,7 @@ class Contact extends Component {
                 </div>
               </div>
             </div>
-          </Fade>
+          </Fade>*/}
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

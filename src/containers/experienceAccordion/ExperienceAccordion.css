@@ -6,8 +6,21 @@
   font-family: "Google Sans Regular";
 }
 
+.accord-panel h2 {
+  font-size: 40px; /* Taille de police */
+  line-height: 1.1; /* Hauteur de ligne */
+  font-family: "Google Sans Regular"; /* Police */
+  text-align: center; /* Centrer le texte */
+}
+
+@media (max-width: 1380px) {
+  .accord-panel h2 {
+    font-size: 35px; /* Taille de police pour les écrans de largeur maximale de 1380px */
+  }
+}
+
 @media (max-width: 768px) {
-  .experience-accord {
-    margin: 20px;
+  .accord-panel h2 {
+    font-size: 30px; /* Taille de police pour les écrans de largeur maximale de 768px */
   }
 }

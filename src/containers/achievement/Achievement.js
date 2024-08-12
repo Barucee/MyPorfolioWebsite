@@ -27,7 +27,7 @@ export default function Achievement() {
                   title: card.title,
                   description: card.subtitle,
                   image: card.image,
-                  footer: card.footerLink,
+                  //footer: card.footerLink,
                 }}
               />
             );

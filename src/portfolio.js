@@ -57,7 +57,7 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing production ready models for various AI and statistical use cases",
-        "⚡ Experience of with Time Series and implementation of GPT use-case",
+        "⚡ Experience of with Time Series and recommendation systems",
         "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
@@ -153,7 +153,9 @@ const skills = {
       title: "Data Engineering",
       fileName: "DataEngineerImg",
       skills: [
-        "⚡ Currently working on projects to deploy ETL pipelines and data lakes",
+        "⚡ Designing and implementing scalable data pipelines for efficient data processing and transformation",
+        "⚡ Building robust ETL (Extract, Transform, Load) processes to ensure data quality and reliability",
+        "⚡ Collaboration with cross-functional teams to understand data requirements and optimize data architecture for business needs",
       ],
       softwareSkills: [
         {
@@ -164,12 +166,20 @@ const skills = {
           },
         },
         {
-          skillName: "PostGreSQL",
-          imageSrc: "LogoPostgreSql.png",
+          skillName: "AirFlow",
+          imageSrc: "AirflowLogo.png",
         },
         {
           skillName: "Google Big Querry",
           imageSrc: "google_big_querry.png",
+        },
+        {
+          skillName: "Snowflake",
+          imageSrc: "Snowflake_Logo.svg.png",
+        },
+        {
+          skillName: "Spark",
+          imageSrc: "Apache_Spark_logo.svg.png",
         },
         {
           skillName: "Python",
@@ -218,6 +228,42 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "BI Foundations with SQL, ETL and Data Warehousing",
+      subtitle: "- Coursera",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/3X2SHFTK856B",
+      alt_name: "IBM BI Foundations",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "IBM Data Warehouse Engineer",
+      subtitle: "- Coursera",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/794QG864XEUJ",
+      alt_name: "IBM DWE",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "Total Data Quality",
+      subtitle: "- Coursera",
+      logo_path: "University-of-Michigan-Logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/VDFC99YPX9VG",
+      alt_name: "Data Quality michigan",
+      color_code: "#00274C",
+    },
+    {
+      title: "Applied Python Data Engineering",
+      subtitle: "- Coursera",
+      logo_path: "Duke-logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/EM4XDBW95PBW",
+      alt_name: "Applied Data Engineering Duke University",
+      color_code: "#FFFFFF",
+    },
     {
       title: "AWS Fundamentals",
       subtitle: "- Coursera",
@@ -354,6 +400,15 @@ const certifications = {
       color_code: "#FFBB0099",
     },
     {
+      title: "Creating Business Value with Data and Looker",
+      subtitle: "- Coursera",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/QV6G6MR55V89",
+      alt_name: "Google",
+      color_code: "#4285F499",
+    },
+    {
       title: "Google Data Analytics Professional Certificate",
       subtitle: "- Coursera",
       logo_path: "google_logo.png",
@@ -378,57 +433,75 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Data Scientist - Fixed Term Contract",
+          title: "Analytics Engineer - Fixed Term Contract",
           company: "Canal +",
           company_url: "https://www.canalplus.com/",
           logo_path: "canal_plus.png",
-          duration: "October 2023 - April 2024",
+          duration: "October 2023 - March 2024",
           location: "Puteaux, France",
-          description: `• During my period in fixed-term contract at Canal +, I did an MVP aiming to generate summary of streaming programs thanks to LLM
-          ➔ Prompt engineering 
-          ➔ Creation of pipeline to generate summary of TV & streaming programs
-          ✓ Acquired : following programming good practice in object oriented in order that it is possible to deploy in production the ML model, working in team thanks to git, doing unit test, & prompt engeenering`,
+          description: `•	I worked on the pipeline of the data and tracking its quality
+          ➔	Designing and deploying data pipelines on AWS
+          ➔	Optimizing pipeline performance and reliability for efficient operations                                
+          ➔	Providing visualization of data quality with Power BI
+          `,
           color: "#0879bf",
         },
         {
-          title: "Data Scientist - Intern",
+          title: "Data Scientist - Apprenticeship",
           company: "Canal +",
           company_url: "https://www.canalplus.com/",
           logo_path: "canal_plus.png",
-          duration: "April 2023 - October 2023",
+          duration: "October 2022 - October 2023",
           location: "Puteaux, France",
-          description: `• During my period in Internship at Canal +, I had to do a PoC project focused on forecasting time series viewership for the MyCanal platform's replay content.
-          ➔ Literature review of research on time series/forecasting and movie viewership
-          ➔	Programming (DARTS package) to forecast the viewership following literature
-          ➔	Manipulation of 10 000 time series with 8 million observations
-          ✓ Acquired : following programming good practice in object oriented in order that it is possible to deploy in production the ML model, working in team thanks to git, doing unit test & Time-series Python Packages`,
+          description: `•	During my Apprenticeship, I had two main projects: Viewership forecasting of MyCanal programs thanks to time series IA models, and recommendations system
+          ➔	Literature review of state-of-the-art with academic and applied papers
+          ➔	Programming following programming good practice and versioning with git.
+          ➔	Manipulation of 8 and 12 million observations for each project
+          ➔	Unit test of the code
+          ➔	Deployment of the time series project with streamlit, docker and AWS
+          `,
           color: "#0879bf",
         },
         {
-          title: "Data Analyst - Intern",
+          title: "Consultant – Fixed-term Contract",
+          company: "TSE Junior Enterprise (Junior Company of my university)",
+          company_url: "https://tse-junior.com/",
+          logo_path: "tse-JE.png",
+          duration: "September 2022 - December 2023",
+          location: "Toulouse, France",
+          description: `•	It is an association of my university which aims to delivers services to companies.
+          ➔	Estimation of cost savings generated by an innovative robot-assisted surgery training platform, following economic literature, with Excel and R`,
+          color: "#0879bf",
+        },
+        {
+          title: "Analytics Engineer - Intern",
           company: "Homeloop",
           company_url: "https://www.homeloop.fr/",
           logo_path: "homeloop.png",
           duration: "November 2021 - May 2022",
           location: "Paris, France",
-          description: `• My responsibilities included extracting data using SQL queries and creating visualizations to assess the real-estate market, or company’s KPI. Additionally, I conducted ad hoc studies utilizing Python and Streamlit for data analysis purposes and implemented a machine learning model.
-          ➔ PostgreSQL Queries & Visualization on Tableau, Looker, Streamlit
-          ➔ Scoring with a XG-Boost Model
-          ✓ Acquired : SQL querying, visualization with Tableau & Looker, base in Python & Machine Learning`,
+          description: `•	My responsibilities were to provide to the company tools for data-driven decisions. So, I mainly did Data Analysis/BI, but also Data Engineering, and one ML model.
+          ➔	SQL Queries & Visualization on Tableau, and then migration on Looker
+          ➔	Extraction of data from an API, integration, and storage into Azure
+          ➔	Creation of a Scoring with a XG-Boost Model (Python)`,
           color: "#fc1f20",
         },
         {
-          title: "Private Teacher",
-          company: "SuperProf",
-          company_url: "https://www.superprof.fr/",
-          logo_path: "superprof.png",
-          duration: "January 2021 - May 2021",
-          location: "Remote",
-          description: `• Private teacher in Mathematics – Junior High School Level`,
+          title: "Research Assistant – Intern (Blue Book)",
+          company: "European Commission",
+          company_url:
+            "https://joint-research-centre.ec.europa.eu/scientific-activities-z/fiscal-policy-analysis-0_en",
+          logo_path: "UE_commission.png",
+          duration: "April 2021 - September 2022",
+          location: "Brussel, Belgium",
+          description: `•	In the Unit of Fiscal Policy Analysis, I was providing modelling support for research projects focused on corporate tax optimization.
+          ➔	implementing a data imputation model using R, which relied on machine learning techniques. This was done to support a micro-simulation model.
+          ➔	Data cleaning and performing econometric analysis using Stata`,
           color: "#fc1f20",
         },
         {
-          title: "Teaching Assistant",
+          title:
+            "Teaching Assistant - Fixed-Term Contract                             ",
           company: "University Toulouse I - Capitole",
           company_url: "https://www.superprof.fr/",
           logo_path: "Logo_UTCapitole.png",
@@ -612,7 +685,7 @@ const publications = {
       createdAt: "2023-03",
       description:
         "Project where we clusterized mall customers with different unsupervised learning methods.",
-      url: "https://github.com/Barucee/TSE_Data_Analytics_22_23",
+      url: "https://baruce.shinyapps.io/tse_data_analytics_22_23/",
     },
     {
       id: "Health Econometrics",

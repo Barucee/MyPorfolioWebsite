@@ -12,6 +12,7 @@
     "test": "react-scripts test"
   },
   "dependencies": {
+    "@metamorfosilab/cookies-consent": "^0.2.9",
     "apollo-boost": "^0.4.4",
     "baseui": "^9.65.3",
     "chart.js": "^2.9.3",
@@ -31,6 +32,8 @@
     "styletron-react": "^5.2.7"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
     "dotenv": "^6.2.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",

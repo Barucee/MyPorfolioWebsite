@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../../components/header/Header";
-import Footer from "../../../components/footer/Footer";
+// import Footer from "../../../components/footer/Footer";
 import TopButton from "../../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import "./Error.css";
@@ -31,7 +31,7 @@ export default class Error extends Component {
             </Link>
           </Fade>
         </div>
-        <Footer theme={this.props.theme} />
+        {/* <Footer theme={this.props.theme} />*/}
         <TopButton theme={this.props.theme} />
       </div>
     );

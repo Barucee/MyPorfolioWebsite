@@ -229,6 +229,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Power BI Data Analyst Professional Certificat",
+      subtitle: "- Coursera",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/specialization/certificate/L8QQZVI1K98X",
+      alt_name: "Power BI Data Analyst Professional Certificat",
+      color_code: "#FFFFFF",
+    },
+    {
       title: "BI Foundations with SQL, ETL and Data Warehousing",
       subtitle: "- Coursera",
       logo_path: "ibm_logo.png",
